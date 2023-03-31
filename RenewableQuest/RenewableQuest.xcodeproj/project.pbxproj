@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49769CC829CC907E008436CC /* RenewableQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49769CC729CC907E008436CC /* RenewableQuestApp.swift */; };
+		49769CCA29CC907E008436CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49769CC929CC907E008436CC /* ContentView.swift */; };
+		49769CCC29CC907F008436CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49769CCB29CC907F008436CC /* Assets.xcassets */; };
+		49769CCF29CC907F008436CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49769CCE29CC907F008436CC /* Preview Assets.xcassets */; };
+		49769CF229CC908D008436CC /* EnergyCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49769CF129CC908D008436CC /* EnergyCalculator.swift */; };
+		4994C0FD29CD187A000EF5F2 /* ChallengeRewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4994C0FC29CD187A000EF5F2 /* ChallengeRewards.swift */; };
+		4994C0FF29CD1891000EF5F2 /* EnergySources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4994C0FE29CD1891000EF5F2 /* EnergySources.swift */; };
+		4994C10129CD189A000EF5F2 /* AR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4994C10029CD189A000EF5F2 /* AR.swift */; };
+		4994C10329CD18A0000EF5F2 /* SocialNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4994C10229CD18A0000EF5F2 /* SocialNetwork.swift */; };
+		49CC5AC029CD80860006C7BC /* Challenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CC5ABF29CD80860006C7BC /* Challenges.swift */; };
+		49F8532229CD92D5000C70A5 /* Rewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8532129CD92D5000C70A5 /* Rewards.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49769CD529CC907F008436CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49769CBC29CC907E008436CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49769CC329CC907E008436CC;
+			remoteInfo = RenewableQuest;
+		};
+		49769CDF29CC907F008436CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49769CBC29CC907E008436CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49769CC329CC907E008436CC;
+			remoteInfo = RenewableQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49769CC429CC907E008436CC /* RenewableQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RenewableQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49769CC729CC907E008436CC /* RenewableQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenewableQuestApp.swift; sourceTree = "<group>"; };
+		49769CC929CC907E008436CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49769CCB29CC907F008436CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49769CCE29CC907F008436CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49769CD429CC907F008436CC /* RenewableQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RenewableQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49769CDE29CC907F008436CC /* RenewableQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RenewableQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49769CF129CC908D008436CC /* EnergyCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyCalculator.swift; sourceTree = "<group>"; };
+		4994C0FC29CD187A000EF5F2 /* ChallengeRewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeRewards.swift; sourceTree = "<group>"; };
+		4994C0FE29CD1891000EF5F2 /* EnergySources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergySources.swift; sourceTree = "<group>"; };
+		4994C10029CD189A000EF5F2 /* AR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR.swift; sourceTree = "<group>"; };
+		4994C10229CD18A0000EF5F2 /* SocialNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetwork.swift; sourceTree = "<group>"; };
+		49CC5ABF29CD80860006C7BC /* Challenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenges.swift; sourceTree = "<group>"; };
+		49F8532129CD92D5000C70A5 /* Rewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rewards.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49769CC129CC907E008436CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49769CD129CC907F008436CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49769CDB29CC907F008436CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49769CBB29CC907E008436CC = {
+			isa = PBXGroup;
+			children = (
+				49769CC629CC907E008436CC /* RenewableQuest */,
+				49769CC529CC907E008436CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49769CC529CC907E008436CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49769CC429CC907E008436CC /* RenewableQuest.app */,
+				49769CD429CC907F008436CC /* RenewableQuestTests.xctest */,
+				49769CDE29CC907F008436CC /* RenewableQuestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49769CC629CC907E008436CC /* RenewableQuest */ = {
+			isa = PBXGroup;
+			children = (
+				49769CC729CC907E008436CC /* RenewableQuestApp.swift */,
+				49769CC929CC907E008436CC /* ContentView.swift */,
+				49769CF129CC908D008436CC /* EnergyCalculator.swift */,
+				4994C0FC29CD187A000EF5F2 /* ChallengeRewards.swift */,
+				49CC5ABF29CD80860006C7BC /* Challenges.swift */,
+				49F8532129CD92D5000C70A5 /* Rewards.swift */,
+				4994C0FE29CD1891000EF5F2 /* EnergySources.swift */,
+				4994C10029CD189A000EF5F2 /* AR.swift */,
+				4994C10229CD18A0000EF5F2 /* SocialNetwork.swift */,
+				49769CCB29CC907F008436CC /* Assets.xcassets */,
+				49769CCD29CC907F008436CC /* Preview Content */,
+			);
+			path = RenewableQuest;
+			sourceTree = "<group>";
+		};
+		49769CCD29CC907F008436CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				49769CCE29CC907F008436CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49769CC329CC907E008436CC /* RenewableQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49769CE829CC907F008436CC /* Build configuration list for PBXNativeTarget "RenewableQuest" */;
+			buildPhases = (
+				49769CC029CC907E008436CC /* Sources */,
+				49769CC129CC907E008436CC /* Frameworks */,
+				49769CC229CC907E008436CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RenewableQuest;
+			productName = RenewableQuest;
+			productReference = 49769CC429CC907E008436CC /* RenewableQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49769CD329CC907F008436CC /* RenewableQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49769CEB29CC907F008436CC /* Build configuration list for PBXNativeTarget "RenewableQuestTests" */;
+			buildPhases = (
+				49769CD029CC907F008436CC /* Sources */,
+				49769CD129CC907F008436CC /* Frameworks */,
+				49769CD229CC907F008436CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49769CD629CC907F008436CC /* PBXTargetDependency */,
+			);
+			name = RenewableQuestTests;
+			productName = RenewableQuestTests;
+			productReference = 49769CD429CC907F008436CC /* RenewableQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49769CDD29CC907F008436CC /* RenewableQuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49769CEE29CC907F008436CC /* Build configuration list for PBXNativeTarget "RenewableQuestUITests" */;
+			buildPhases = (
+				49769CDA29CC907F008436CC /* Sources */,
+				49769CDB29CC907F008436CC /* Frameworks */,
+				49769CDC29CC907F008436CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49769CE029CC907F008436CC /* PBXTargetDependency */,
+			);
+			name = RenewableQuestUITests;
+			productName = RenewableQuestUITests;
+			productReference = 49769CDE29CC907F008436CC /* RenewableQuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49769CBC29CC907E008436CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					49769CC329CC907E008436CC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					49769CD329CC907F008436CC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 49769CC329CC907E008436CC;
+					};
+					49769CDD29CC907F008436CC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 49769CC329CC907E008436CC;
+					};
+				};
+			};
+			buildConfigurationList = 49769CBF29CC907E008436CC /* Build configuration list for PBXProject "RenewableQuest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49769CBB29CC907E008436CC;
+			productRefGroup = 49769CC529CC907E008436CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49769CC329CC907E008436CC /* RenewableQuest */,
+				49769CD329CC907F008436CC /* RenewableQuestTests */,
+				49769CDD29CC907F008436CC /* RenewableQuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49769CC229CC907E008436CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49769CCF29CC907F008436CC /* Preview Assets.xcassets in Resources */,
+				49769CCC29CC907F008436CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49769CD229CC907F008436CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49769CDC29CC907F008436CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49769CC029CC907E008436CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4994C0FD29CD187A000EF5F2 /* ChallengeRewards.swift in Sources */,
+				49CC5AC029CD80860006C7BC /* Challenges.swift in Sources */,
+				4994C0FF29CD1891000EF5F2 /* EnergySources.swift in Sources */,
+				4994C10129CD189A000EF5F2 /* AR.swift in Sources */,
+				49F8532229CD92D5000C70A5 /* Rewards.swift in Sources */,
+				4994C10329CD18A0000EF5F2 /* SocialNetwork.swift in Sources */,
+				49769CCA29CC907E008436CC /* ContentView.swift in Sources */,
+				49769CF229CC908D008436CC /* EnergyCalculator.swift in Sources */,
+				49769CC829CC907E008436CC /* RenewableQuestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49769CD029CC907F008436CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49769CDA29CC907F008436CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49769CD629CC907F008436CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49769CC329CC907E008436CC /* RenewableQuest */;
+			targetProxy = 49769CD529CC907F008436CC /* PBXContainerItemProxy */;
+		};
+		49769CE029CC907F008436CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49769CC329CC907E008436CC /* RenewableQuest */;
+			targetProxy = 49769CDF29CC907F008436CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49769CE629CC907F008436CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49769CE729CC907F008436CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49769CE929CC907F008436CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RenewableQuest/Preview Content\"";
+				DEVELOPMENT_TEAM = 67PAUT5FCD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppCatalyst.RenewableQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49769CEA29CC907F008436CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RenewableQuest/Preview Content\"";
+				DEVELOPMENT_TEAM = 67PAUT5FCD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppCatalyst.RenewableQuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49769CEC29CC907F008436CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67PAUT5FCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppCatalyst.RenewableQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RenewableQuest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RenewableQuest";
+			};
+			name = Debug;
+		};
+		49769CED29CC907F008436CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67PAUT5FCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppCatalyst.RenewableQuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RenewableQuest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RenewableQuest";
+			};
+			name = Release;
+		};
+		49769CEF29CC907F008436CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67PAUT5FCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppCatalyst.RenewableQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RenewableQuest;
+			};
+			name = Debug;
+		};
+		49769CF029CC907F008436CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 67PAUT5FCD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AppCatalyst.RenewableQuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RenewableQuest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49769CBF29CC907E008436CC /* Build configuration list for PBXProject "RenewableQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49769CE629CC907F008436CC /* Debug */,
+				49769CE729CC907F008436CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49769CE829CC907F008436CC /* Build configuration list for PBXNativeTarget "RenewableQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49769CE929CC907F008436CC /* Debug */,
+				49769CEA29CC907F008436CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49769CEB29CC907F008436CC /* Build configuration list for PBXNativeTarget "RenewableQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49769CEC29CC907F008436CC /* Debug */,
+				49769CED29CC907F008436CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49769CEE29CC907F008436CC /* Build configuration list for PBXNativeTarget "RenewableQuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49769CEF29CC907F008436CC /* Debug */,
+				49769CF029CC907F008436CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49769CBC29CC907E008436CC /* Project object */;
+}
